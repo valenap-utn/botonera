@@ -7,5 +7,7 @@
   { "id": "punch", "label": "Punch", "file": "classics/punch-track.mp3", "color": "red" },
   { "id": "sad-trombone", "label": "Sad Trombone", "file": "classics/sad-trombone-track.mp3", "color": "blue" },
   { "id": "cricket", "label": "Grillos", "file": "classics/cricket-track.mp3", "color": "green" },
-  { "id": "whip", "label": "Latigazo", "file": "classics/whip-track.mp3", "color": "yellow" }
+  { "id": "whip", "label": "Latigazo", "file": "classics/whip-track.mp3", "color": "yellow" },
+
+  { "id": "fatality", "label": "Fatality", "file": "classics/fatality.mp3", "color": "red" }
 ]

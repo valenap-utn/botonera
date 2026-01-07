@@ -1,0 +1,19 @@
+[
+  { "id": "1-alto-ahi", "label": "1 - Alto ahi", "file": "home-alone/1-alto-ahi.mp3", "color": "red" },
+  { "id": "2-ya-se-q-eres-tu", "label": "2 - Se que eres tu", "file": "home-alone/2-ya-se-q-eres-tu.mp3", "color": "blue" },
+  { "id": "3-estuviste-aqui-anoche-tmb", "label": "3 - Estuviste aqui anoche", "file": "home-alone/3-estuviste-aqui-anoche-tmb.mp3", "color": "green" },
+  { "id": "4-estuviste-besuqueandote-con-mi-hermano", "label": "4 - Besuqueandote con mi hermano", "file": "home-alone/4-estuviste-besuqueandote-con-mi-hermano.mp3", "color": "yellow" },
+
+  { "id": "5-te-besuqueas-con-todo-el-mundo", "label": "5 - Te besuqueas con todo el mundo", "file": "home-alone/5-te-besuqueas-con-todo-el-mundo.mp3", "color": "red" },
+  { "id": "6-puedo-seguir-toda-la-noche", "label": "6 - Puedo seguir toda la noche", "file": "home-alone/6-puedo-seguir-toda-la-noche.mp3", "color": "blue" },
+  { "id": "7-esta-bien", "label": "7 - Esta bien", "file": "home-alone/7-esta-bien.mp3", "color": "green" },
+  { "id": "8-te-creo-pero-mi-metralleta-no", "label": "8 - Te creo, pero mi metralleta no", "file": "home-alone/8-te-creo-pero-mi-metralleta-no.mp3", "color": "yellow" },
+
+  { "id": "9-de-rodillas-dime-q-me-amas", "label": "9 - Dime que me amas", "file": "home-alone/9-de-rodillas-dime-q-me-amas.mp3", "color": "red" },
+  { "id": "10-tienes-q-hacerlo-mejor", "label": "10 - Tienes que hacerlo mejor", "file": "home-alone/10-tienes-q-hacerlo-mejor.mp3", "color": "blue" },
+  { "id": "11-voy-a-dejarte-ir", "label": "11 - Voy a dejarte ir", "file": "home-alone/11-voy-a-dejarte-ir.mp3", "color": "green" },
+  { "id": "12-para-antes-d-q-cuente-tres", "label": "12 - Para antes de que cuente 3", "file": "home-alone/12-para-antes-d-q-cuente-tres.mp3", "color": "yellow" },
+
+  { "id": "13-conteo", "label": "13 - Conteo", "file": "home-alone/13-conteo.mp3", "color": "red" },
+  { "id": "14-feliz-navidad-inmundo-animal", "label": "14 - Feliz navidad inmundo animal", "file": "home-alone/14-feliz-navidad-inmundo-animal.mp3", "color": "blue" }
+]

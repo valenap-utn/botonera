@@ -1,7 +1,8 @@
 [
   { "title": "Clásicos", "json": "./data/sounds-party.json" },
   { "title": "Jingles", "json": "./data/sounds-jingles.json" },
+  { "title": "Cortinas musicales", "json": "./data/sounds-cortinas.json" },
   { "title": "Showmatch", "json": "./data/sounds-showmatch.json" },
   { "title": "Movies", "json": "./data/sounds-movies.json" },
-  { "title": "Cortinas musicales", "json": "./data/sounds-cortinas.json" }
+  { "title": "Home Alone", "json": "./data/sounds-home-alone.json" }
 ]
