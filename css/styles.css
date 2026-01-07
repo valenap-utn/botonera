@@ -177,11 +177,43 @@
 }
 
 
-/* opcional: efecto al presionar */
+/* Efecto al presionar */
 .botonera:active + .button-label{
     transform: translateY(2px);
     opacity: 0.9;
 }
+
+/* Barra de progreso */
+.botonera.is-playing{
+    filter: brightness(1.12);
+}
+
+.sound-progress{
+    width: 120px;
+    height: 10px;
+    border-radius: 999px;
+    overflow: hidden;
+    background: rgba(255,255,255,.12);
+    border: 1px solid rgba(255,255,255,.18);
+}
+
+.sound-progress-bar{
+    height: 100%;
+    width: 0%;
+    border-radius: 999px;
+    background: rgba(255,255,255,.85);
+    transition: width .05s linear;
+}
+
+.sound-time{
+    margin-top: 8px;
+    font-family: "Press Start 2P", monospace;
+    font-size: 10px;
+    color: rgba(255,255,255,.9);
+    text-shadow: 1px 1px 0 #000;
+    min-height: 14px; /* para que no salte el layout */
+}
+
 
 /* Footer */
 .footer {
