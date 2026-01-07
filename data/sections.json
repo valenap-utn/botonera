@@ -1,0 +1,5 @@
+[
+  { "title": "Clásicos", "json": "./data/sounds-party.json" },
+  { "title": "Jingles", "json": "./data/sounds-jingles.json" },
+  { "title": "Showmatch", "json": "./data/sounds-showmatch.json" }
+]

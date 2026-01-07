@@ -1,0 +1,10 @@
+[
+  { "id": "marolio", "label": "Marolio", "file": "jingles/marolio.mp3", "color": "red" },
+  { "id": "canioncitos-de-membrillo", "label": "Cañoncitos de Membrillo", "file": "jingles/canioncitos-de-membrillo.mp3", "color": "blue" },
+  { "id": "obleas-recital", "label": "Obleas Recital", "file": "jingles/obleas-recital.mp3", "color": "green" },
+  { "id": "un-yogur-cada-dia", "label": "La Serenisima (un yogur cada dia)", "file": "jingles/un-yogur-cada-dia.mp3", "color": "yellow" },
+
+  { "id": "sapito", "label": "Arcor Sapito", "file": "jingles/sapito.mp3", "color": "red" },
+  { "id": "voligoma", "label": "Voligoma", "file": "jingles/voligoma-papel.mp3", "color": "blue" },
+  { "id": "juliana-maq-art", "label": "Juliana Maq. Artistico", "file": "jingles/juliana-maq-art.mp3", "color": "green" }
+]

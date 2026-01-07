@@ -1,0 +1,213 @@
+*{
+    font-family: 'Press Start 2P', monospace;
+}
+
+
+/* Banner */
+.banner {
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+}
+
+.banner h1 {
+    margin: 0;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.banner p {
+    font-size: 20px;
+    color: white;
+    opacity: .7;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+/* Botones */
+.btn-flat {
+    color: white;
+    padding: 8px 24px;
+    border-radius: 4px;
+    background: #670BFF;
+    transition: background 0.3s ease;
+}
+
+.btn-flat:hover {
+    background: #4D04C4;
+    color: white;
+}
+
+/* Boton de botonera */
+.botonera{
+    /* Tamaño / forma */
+    width: 120px;
+    height: 120px;
+    border-radius: 999px;
+    border: 10px solid #0b0b0b; /* aro negro exterior */
+
+    /* Color del botón (cambiá este si querés otros) */
+    background: radial-gradient(circle at 30% 30%,
+    #ffb3b3 0%,
+    #ff3b3b 25%,
+    #d90000 55%,
+    #9e0000 100%
+    );
+
+    /* Sensación 3D */
+    box-shadow:
+            0 14px 0 #1c1c1c,           /* “base” abajo (altura) */
+            0 22px 30px rgba(0,0,0,.35),/* sombra ambiente */
+            inset 0 10px 18px rgba(255,255,255,.25), /* brillo arriba */
+            inset 0 -18px 26px rgba(0,0,0,.45);      /* sombreado abajo */
+
+    /* Interacción */
+    cursor: pointer;
+    transition: transform .08s ease, box-shadow .08s ease, filter .15s ease;
+    outline: none;
+
+    /* Para que Bootstrap no meta cosas raras */
+    padding: 0;
+}
+
+/* Hover: un poquito más brillante */
+.botonera:hover{
+    filter: brightness(1.05);
+}
+
+/* Click: se “hunde” */
+.botonera:active{
+    transform: translateY(10px);
+    box-shadow:
+            0 4px 0 #1c1c1c,
+            0 12px 18px rgba(0,0,0,.35),
+            inset 0 10px 18px rgba(255,255,255,.18),
+            inset 0 -18px 26px rgba(0,0,0,.5);
+}
+
+/* (Opcional) foco accesible */
+.botonera:focus-visible{
+    box-shadow:
+            0 14px 0 #1c1c1c,
+            0 22px 30px rgba(0,0,0,.35),
+            0 0 0 5px rgba(255, 255, 255, .35),
+            inset 0 10px 18px rgba(255,255,255,.25),
+            inset 0 -18px 26px rgba(0,0,0,.45);
+}
+
+.botonera.red { background: radial-gradient(circle at 30% 30%, #ffb3b3 0%, #ff3b3b 25%, #d90000 55%, #9e0000 100%); }
+.botonera.blue { background: radial-gradient(circle at 30% 30%, #b3d9ff 0%, #2f8cff 25%, #0057d9 55%, #003a9e 100%); }
+.botonera.green{ background: radial-gradient(circle at 30% 30%, #b8ffcf 0%, #2dff7a 25%, #00c853 55%, #008a3a 100%); }
+.botonera.yellow{background: radial-gradient(circle at 30% 30%, #fff3b3 0%, #ffd23b 25%, #e0a800 55%, #a06f00 100%); }
+
+
+/* Button's Section */
+.sound-sections{
+    padding: 30px 16px 60px;
+    background-color: #011638;
+}
+
+.sound-section{
+    margin: 28px auto 46px;
+    max-width: 1200px;
+}
+
+.sound-section-title{
+    font-family: "Press Start 2P", monospace;
+    font-size: 30px;
+    color: white;
+    margin: 0 0 22px;
+    text-shadow: 2px 2px 0 #000;
+    text-align: center;
+}
+
+.buttons-section{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(120px, 1fr));
+    gap: 28px;
+    justify-items: center;
+    align-items: center;
+    padding: 40px 16px;
+
+    background-color: #011638;
+}
+
+@media (max-width: 768px){
+    .buttons-section{
+        grid-template-columns: repeat(2, minmax(120px, 1fr));
+    }
+}
+
+.arcade-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+/* Texto del botón */
+.button-label{
+    /*font-family: 'Inter', sans-serif;*/
+    font-weight: 600;
+    /*font-size: 14px;*/
+
+    font-family: 'Press Start 2P', monospace;
+    font-size: 18px;
+
+    letter-spacing: 0.5px;
+    color: #f5f5f5;
+    /*color: #111;*/
+    text-transform: uppercase;
+
+    /* estilo arcade */
+    text-shadow:
+            1px 1px 0 #000,
+            2px 2px 0 #000;
+
+    /*text-shadow:*/
+    /*        1px 1px 0 #fff,*/
+    /*        2px 2px 0 #ddd;*/
+
+    user-select: none;
+
+    padding: 30px 0;
+
+    text-align: center;
+}
+
+
+/* opcional: efecto al presionar */
+.botonera:active + .button-label{
+    transform: translateY(2px);
+    opacity: 0.9;
+}
+
+/* Footer */
+.footer {
+    background: #F4F4F4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    padding: 0px 50px;
+    color: rgba(0,0,0,0.3);
+}
+.footer-links {
+    display: flex;
+    align-items: center;
+}
+.footer-links a {
+    color: black;
+    opacity: 0.15;
+    text-decoration: none;
+    font-size: 24px;
+    padding: 0px 10px;
+}
+.footer-links a:hover {
+    opacity: 1;
+}
+.footer .fa-heart {
+    color: #D23333;
+}
+
