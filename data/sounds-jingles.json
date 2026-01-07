@@ -6,5 +6,10 @@
 
   { "id": "sapito", "label": "Arcor Sapito", "file": "jingles/sapito.mp3", "color": "red" },
   { "id": "voligoma", "label": "Voligoma", "file": "jingles/voligoma-papel.mp3", "color": "blue" },
-  { "id": "juliana-maq-art", "label": "Juliana Maq. Artistico", "file": "jingles/juliana-maq-art.mp3", "color": "green" }
+  { "id": "juliana-maq-art", "label": "Juliana Maq. Artistico", "file": "jingles/juliana-maq-art.mp3", "color": "green" },
+  { "id": "querubin", "label": "Querubin", "file": "jingles/querubin.mp3", "color": "yellow" },
+
+  { "id": "colchones-cannon", "label": "Cannon (1) - Colchones Cannon", "file": "jingles/cannon-track-1.mp3", "color": "red" },
+  { "id": "cannon-es-mi-colchon", "label": "Cannon (2) - Cannon es mi colchon", "file": "jingles/cannon-track-2.mp3", "color": "blue" },
+  { "id": "chiki-chiki-chi", "label": "Chiki chiki chi - Colgate", "file": "jingles/chiki-chiki-chi.mp3", "color": "green" }
 ]

@@ -1,0 +1,8 @@
+[
+  { "id": "balada-v1", "label": "Balada", "file": "showmatch/balada-v1.mp3", "color": "red" },
+  { "id": "previas", "label": "Previas (trompetas)", "file": "showmatch/previas-trompetas.mp3", "color": "blue" },
+  { "id": "eleccion-pareja-salvada", "label": "Eleccion Pareja Salvada", "file": "showmatch/eleccion-pareja-salvada.mp3", "color": "green" },
+  { "id": "salvacion", "label": "Salvacion", "file": "showmatch/salvacion.mp3", "color": "yellow" },
+
+  { "id": "suspenso-y-salvada", "label": "Suspenso + Salvada", "file": "showmatch/suspenso-y-salvada.mp3", "color": "red" }
+]

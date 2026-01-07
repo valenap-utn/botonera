@@ -1,0 +1,6 @@
+[
+  { "id": "mirtha-legrand", "label": "Mirtha Legrand", "file": "cortinas/mirtha-legrand.mp3", "color": "red" },
+  { "id": "cronica", "label": "Cronica", "file": "cortinas/cronica.mp3", "color": "blue" },
+  { "id": "gran-hermano", "label": "Gran Hermano", "file": "cortinas/gran-hermano.mp3", "color": "green" },
+  { "id": "intro-rkt", "label": "Intro RKT", "file": "cortinas/intro-rkt.mp3", "color": "yellow" }
+]

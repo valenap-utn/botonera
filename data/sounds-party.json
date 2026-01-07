@@ -4,6 +4,8 @@
   { "id": "applause", "label": "Aplausos (1)", "file": "classics/applause-track.mp3", "color": "green" },
   { "id": "rimshot", "label": "Badum Tss", "file": "classics/ba-dum-tss-track.mp3", "color": "yellow" },
 
-  { "id": "punch", "label": "Punch", "file": "classics/punch-track.mp3", "color": "red" }
-
+  { "id": "punch", "label": "Punch", "file": "classics/punch-track.mp3", "color": "red" },
+  { "id": "sad-trombone", "label": "Sad Trombone", "file": "classics/sad-trombone-track.mp3", "color": "blue" },
+  { "id": "cricket", "label": "Grillos", "file": "classics/cricket-track.mp3", "color": "green" },
+  { "id": "whip", "label": "Latigazo", "file": "classics/whip-track.mp3", "color": "yellow" }
 ]

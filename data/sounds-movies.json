@@ -1,0 +1,5 @@
+[
+  { "id": "twinkle-chime", "label": "Twinkle - Back to the Future", "file": "movies/twinkle-chime-back-to-the-future.mp3", "color": "red" },
+  { "id": "marcha-imperial", "label": "Marcha Imperial - Star Wars", "file": "movies/marcha-imperial-sw.mp3", "color": "blue" }
+
+]
