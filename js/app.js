@@ -316,9 +316,6 @@ async function init() {
 
 init().catch(console.error);
 
-
-init().catch(console.error);
-
 // Cortar todo con tecla ESC
 document.addEventListener("keydown", (e) => {
     if (e.key === "Escape") stopCurrentPlayback();
