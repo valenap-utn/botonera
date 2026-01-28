@@ -9,5 +9,6 @@
   { "id": "cricket", "label": "Grillos", "file": "classics/cricket-track.mp3", "color": "green" },
   { "id": "whip", "label": "Latigazo", "file": "classics/whip-track.mp3", "color": "yellow" },
 
-  { "id": "fatality", "label": "Fatality", "file": "classics/fatality.mp3", "color": "red" }
+  { "id": "aaww", "label": "Aaww", "file": "classics/aww-track.mp3", "color": "red" },
+  { "id": "aww-raro", "label": "Aww Raaro", "file": "classics/oooh-aawwo-raro-track.mp3", "color": "blue" }
 ]

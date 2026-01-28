@@ -240,7 +240,7 @@ async function renderSection({ title, json }) {
     container.appendChild(sectionEl);
 }
 
-async function init() {
+/*async function init() {
     const sections = await loadJson(SECTIONS_URL);
 
     const container = document.getElementById("soundSections");
@@ -254,7 +254,68 @@ async function init() {
             // sigue con las demás
         }
     }
+}*/
+
+async function renderSelectedSection(section) {
+    const container = document.getElementById("soundSections");
+
+    // 1) Limpio TODO lo anterior (incluye menú + sección)
+    container.innerHTML = "";
+
+    const sections = await loadJson(SECTIONS_URL);
+
+    // 2) Menú (una sola vez)
+    const menu = document.createElement("div");
+    menu.className = "section-menu";
+
+    const inner = document.createElement("div");
+    inner.className = "section-menu-inner";
+
+    sections.forEach((s) => {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "section-tab";
+        btn.textContent = s.title;
+
+        if (s.json === section.json) btn.classList.add("active");
+
+        btn.addEventListener("click", async () => {
+            if (s.json === section.json) return;
+
+            stopCurrentPlayback();
+            localStorage.setItem("botonera:selectedSectionJson", s.json);
+
+            await renderSelectedSection(s);
+        });
+
+        inner.appendChild(btn);
+    });
+
+    menu.appendChild(inner);
+    container.appendChild(menu);
+
+    // 3) Render de la sección elegida
+    await renderSection(section);
 }
+
+
+async function init() {
+    const sections = await loadJson(SECTIONS_URL);
+
+    // 1) intentar agarrar sounds-party.json como default
+    const party = sections.find((s) => String(s.json).includes("sounds-party.json"));
+
+    // 2) si el usuario ya eligió una antes, usar esa
+    const saved = localStorage.getItem("botonera:selectedSectionJson");
+    const savedSection = saved ? sections.find((s) => s.json === saved) : null;
+
+    const defaultSection = savedSection || party || sections[0];
+
+    await renderSelectedSection(defaultSection);
+}
+
+init().catch(console.error);
+
 
 init().catch(console.error);
 
